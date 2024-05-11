@@ -1,0 +1,46 @@
+
+nav{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    word-spacing: 20px;
+    background-color: rgb(13, 232, 240);
+    font-size: larger;
+}
+.Test{
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px 0px 150px 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+table,th,td{
+    border: 2px rgb(34, 165, 56) dashed;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+}
+@keyframes rotate{
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
+.side-nav{
+
+}

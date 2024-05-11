@@ -1,0 +1,90 @@
+body{
+    background-color: chartreuse;
+    inline-size: auto;
+}
+.heading{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+fieldset{
+    box-shadow: 2.5px 2.5px;
+    border-radius: 25px;
+    border-color: blanchedalmond;
+}
+legend{
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+.info{
+    text-align: center;
+    
+}
+input{
+    border-radius: 75px;
+    border-color: blanchedalmond;
+
+}
+input:focus{
+    background-color:aquamarine;
+    
+}
+a:hover{
+    color:rgb(223, 29, 165);
+}
+footer{
+    margin-top: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.top{
+    animation-name: text;
+    animation-duration: 5s;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: chocolate;
+}
+.d2{
+    animation-name: color;
+    animation-duration: 10s;
+    text-align: center;
+    align-content: center;
+    height: 150px;
+    width: 300px;
+    border: 2px;
+    border-radius: 25px;
+    background: yellow;
+    margin:0 auto;
+    transition:height 1s, width 1s, background 1s;
+}
+@keyframes color{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+    }
+}
+@keyframes text{
+    from{
+        margin: 400px;
+    }
+    to {
+        margin: 0px;
+    }
+}
+.d2:hover{
+    height: 150px;
+    width: 600px;
+    background: yellowgreen;
+}
